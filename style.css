@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    width: 100vw;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+.image {
+    width: 100vw;
+    height: 130vw;
+    background-image: url('Untitled_3x.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.speech {
+    padding: 0 30px;
+    width: 100%;
+    font-size: 25px;
+    text-align: left;
+}
+.secret_place {
+    margin-top: 30px;
+    padding: 30px 30px;
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #8fb5de;
+    color: white;
+    font-weight: bold;
+}
